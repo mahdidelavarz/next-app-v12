@@ -8,6 +8,7 @@ function PostList({ blogsData }) {
   return (
     <section className="w-full h-full grid grid-cols-6 gap-6 px-3">
       {blogsData.map((item) => {
+        console.log(item)
         return (
           <div
             key={item._id}
